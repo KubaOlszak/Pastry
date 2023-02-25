@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML IMG</title>
+</head>
+<body>
+    <header id="titre_site">
+        <h1>Mon site web en html</h1>
+        <nav>
+            <ul>
+                <li><a href="#" target="_blank">Accueil</a></li>
+                <li><a href="#" target="_blank">A propos</a></li>
+                <li><a href="#" target="_blank">Nos services</a></li>
+                <li><a href="#" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="html.jpg" alt="Photo des touches de clavier H, T, M, L" width="500">
+            <h2>C'est trop simple !</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie, nunc ac ultricies fringilla, leo ipsum maximus ex, vitae laoreet justo tortor et nibh. Donec ultrices ut mi id varius. Morbi laoreet, dolor at mattis ullamcorper, mauris nunc viverra risus, eu aliquam enim ante non arcu. Fusce iaculis dapibus tellus vitae ultricies. Praesent nulla metus, accumsan eu pellentesque a, fringilla id lectus. Phasellus sed tortor eget libero facilisis ornare. Sed in quam vel dui scelerisque cursus accumsan a elit. Morbi ultrices magna a lorem porta finibus. Nulla dolor nisl, viverra et orci sed, rutrum tempor odio. Praesent in tempus augue, non ultrices odio. Duis volutpat libero quis augue molestie, vitae consequat nibh fermentum. Curabitur tristique lectus at augue sagittis, a molestie nisi eleifend. Maecenas ut efficitur est, sed suscipit mi.7</p>
+        </section>
+
+        <section>
+            <img src="css.jpg" alt="Photo du logo CSS3 tenu par une femme" width="500">
+            <h2>Comme le css !</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie, nunc ac ultricies fringilla, leo ipsum maximus ex, vitae laoreet justo tortor et nibh. Donec ultrices ut mi id varius. Morbi laoreet, dolor at mattis ullamcorper, mauris nunc viverra risus, eu aliquam enim ante non arcu. Fusce iaculis dapibus tellus vitae ultricies. Praesent nulla metus, accumsan eu pellentesque a, fringilla id lectus. Phasellus sed tortor eget libero facilisis ornare. Sed in quam vel dui scelerisque cursus accumsan a elit. Morbi ultrices magna a lorem porta finibus. Nulla dolor nisl, viverra et orci sed, rutrum tempor odio. Praesent in tempus augue, non ultrices odio. Duis volutpat libero quis augue molestie, vitae consequat nibh fermentum. Curabitur tristique lectus at augue sagittis, a molestie nisi eleifend. Maecenas ut efficitur est, sed suscipit mi.7</p>
+        </section>
+
+        <section id="contact">
+            <h2>Vous pouvez me contacter</h2>
+            <fieldset>
+                <form action="form.php" method="post" enctype="multipart/form-data">
+                    <label for="Nom">Nom (Obligatoire) :</label>
+                        <input id="name" name="nom" type="text" placeholder="Votre nom" required>
+                    <br>
+                    <label for="Prénom">Prénom :</label>
+                        <input id="prenom"name="prenom" type="text" placeholder="Votre prénom">
+                    <br>
+                </form>
+            </fieldset>
+            <br><br>
+
+            <fieldset>
+                <label for="votre_message">Votre message concerne : </label>
+                <select name="" id="">
+                    <option value="projet">Un projet</option>
+                    <option value="suggestion">Une suggestion</option>
+                    <option value="rien">Rien du tout</option>
+                </select>
+            </fieldset>
+            <br><br>
+            
+            <textarea name="message" id="message" placeholder="Votre message" cols="70" rows="10" required></textarea>
+            <br>
+            <input type="submit" id="submit" value="Envoyer">
+            <br><br><br>
+
+        </section>
+
+    </main>
+
+    <footer>
+        Copyright <strong>2023</strong> Mon site web en html
+    </footer>
+</body>
+</html>
