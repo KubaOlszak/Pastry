@@ -50,4 +50,48 @@ table {
 }
 /* End RESET */
 
+body {
+    max-width: 2560px;
+    width: 100%;
+}
 
+/* =======  En-tête  ======== */
+
+header {
+    height: 1000px;
+    background-image: url(../img/header.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header nav div {
+    margin: 30px 1px 10px 60px;
+}
+
+header nav ul {
+    margin: 75px 50px 10px 1px;
+}
+
+ nav ul li {
+    position: relative;
+    float: left;
+}
+
+nav ul li a {
+    padding: 0 25px;
+    color: #ffffff;
+    text-decoration: none;
+    font: normal normal bold 24px/1 sans-serif ;
+}
+
+.left {
+    position: relative;
+    float: left;
+}
+.right {
+    position: relative;
+    float: right;
+}
+ header h1 {
+    top: 200px;
+ }
