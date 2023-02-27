@@ -58,6 +58,7 @@ body {
 /* =======  En-tête  ======== */
 
 header {
+    position: relative;
     height: 1000px;
     background-image: url(../img/header.jpg);
     background-size: contain;
@@ -72,18 +73,16 @@ header nav ul {
     margin: 75px 50px 10px 1px;
 }
 
- nav ul li {
-    position: relative;
-    float: left;
-}
-
 nav ul li a {
     padding: 0 25px;
     color: #ffffff;
     text-decoration: none;
     font: normal normal bold 24px/1 sans-serif ;
 }
-
+.menu li {
+    position: relative;
+    float: left;
+}
 .left {
     position: relative;
     float: left;
@@ -92,6 +91,24 @@ nav ul li a {
     position: relative;
     float: right;
 }
+
  header h1 {
     top: 200px;
+    right: -570px;
+    border-bottom: 10px solid #FFBDBD;
+    padding-bottom: 15px;
+    font: normal normal bold 64px/1.3 sans-serif;
+    color: #ffffff;
  }
+ header h1 span {
+    font-weight: normal;
+    color: turquoise;
+ }
+ #social {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 440px;
+ }
+#social li a img {
+    padding: 0px 80px ;
+}
